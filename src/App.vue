@@ -16,10 +16,8 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-/**
- * 已经部署 Sass、Less、Stylus 预处理器，只需通过 lang 指明需要使用哪种预处理器
- */
+<style lang="sass">
+  /* 已经部署 Sass、Less、Stylus 预处理器，只需通过 lang 指明需要使用哪种预处理器 */
   #app
-    font-size 16px
+    font-size: 16px
 </style>
