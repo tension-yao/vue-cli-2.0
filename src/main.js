@@ -5,9 +5,14 @@ import App from './App'
 import store from './store'
 import router from './router'
 
-import '@/assets/css/reset.css'
-import '@/lib/css/common.css'
-import '@/lib/css/variabel.css'
+import mock from './mock'
+
+import './lib/js/rem'
+import './assets/css/reset.css'
+import './lib/css/common.css'
+import './lib/css/variabel.css'
+
+mock && mock.init()
 
 Vue.config.productionTip = false
 
